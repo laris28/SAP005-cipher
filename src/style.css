@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(241, 226, 241);
+}
+
+img{
+  height:450px;
+  width:800px;
+  margin-left: 40px;
+}
+
+h1, h2, h3, h4{
+  color:  rgb(133, 59, 136);
+  font-family: 'Rubik', sans-serif;
+}
+
+p{
+  color: b;
+  font-family: 'Mukta', sans-serif;
+}
+
+hr{
+  background-color: rgb(158, 75, 179);
+  height: 4px;
+}
+
+textarea{
+  box-shadow: 1px 1px 2px #333333;
+  background: #cccccc;
+  border:1px solid #c608df;
+  height:100px;
+  width:500px;
+}
+
+textarea:hover{
+  background: #ffffff; border:1px solid #dd80e9;
+}
+
+input{
+  box-shadow: 1px 1px 2px #333333;
+  background: #cccccc;
+  border:1px solid #c608df;
+  height:25px;
+  width:500px;
+}
+
+input:hover{
+  background: #ffffff; border:1px solid #dd80e9;
+}
+
+.negrito {
+  color: rgb(133, 59, 136);
+}
+
+button{
+  color: #7a1985;
+}
+
+
+

@@ -4,10 +4,46 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <header>
+      <h1>SOS MULHER</h1>
+      <hr />
+      <h2>Ficar calada? Não mais!</h2>
+      <p>
+        Muitas vezes a <b class="negrito">violência contra a mulher </b> é tratada como um tema distante ou até mesmo inexistente, mas a cada hora em média de 8 mulheres são mortas, agredidas ou estupradas no estado de São Paulo.
+        <b class="principal"> Sendo assim este site é dedicado a todas as mulheres que buscam justiça, liberdade e esperança, com o objetivo de criptografar mensagens para denuncias sem que seus agressores descubram. </b>
+      </p>
+      <img src="explicativa.jpg">
+      <h3>Como usar:</h3>
+      <p>1- Escolha um numero positivo para que o offset seja gerado; <br/>
+         2- Escreva sua mensagem sem espaçamentos ou letras minúsculas; <br/>
+         3- Clique no botão codificar/descodificar; <br/>
+         4- Sua mensagem já está pronta para ser utilizada.
+      </p>
+    </header>
+    <div class="fomulario">
+      <h4>Offset:</h4>
+      <input type="number" id="deslocamento" name="Texto" placeholder="Valor do offset" min="0" step="1">
+    </div>
+    <div>
+      <h4>Texto para codificar:</h4>
+      <textarea name="Texto" id="codificar" placeholder="Texto para codificar..." style="resize: none;" cols="30" rows="10"></textarea>
+      <textarea name="Texto" id="codificado" placeholder="Texto codificado..." style="resize: none;" cols="30" rows="10"></textarea>
+      <div>
+        <button id="btn-codificar">Codificar</button>
+      </div>
+    </div>
+    <div>
+      <h4>Texto para descodificar:</h4>
+      <textarea name="Codigo" id="descodificar" placeholder="Texto para descodificar..." style="resize: none;" cols="30" rows="10"></textarea>
+      <textarea name="Texto" id="descodificado" placeholder="Texto descodificado..." style="resize: none;" cols="30" rows="10"></textarea>
+      <div>
+        <button id="btn-descodificar">Descodificar</button>
+      </div>
     </div>
     <script src="index.js" type="module"></script>
   </body>
